@@ -138,3 +138,58 @@ header {
 .main-nav li a:active{
     border-bottom: 1px solid #e67e22;
 }
+
+/* ============================= Feature section ====================================== */
+section{
+    padding: 80px 0;
+}
+
+.row h2{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 250%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.row h2:after{
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: "";
+    width: 350px;
+    margin: 15px auto 0;
+}
+
+.long-copy{
+    font-size: 130%;
+    font-weight: 400;
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.feature-box{
+    padding: 1%;
+}
+
+.feature-box h3{
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size:140%;
+    margin-bottom: 15px;
+}
+
+.feature-box p{
+    font-size: 100%;
+    line-height: 145%;
+}
+
+.feature-box-icon{
+    font-size: 350%;
+    display: block;
+    color: #e67e22;
+    margin: 10px;
+}
