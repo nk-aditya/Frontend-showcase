@@ -24,11 +24,6 @@ header {
     background-position: center;
 }
 
-/* h1{
-    margin: 0;
-    padding: 0;
-} */
-
 .hero-text-box{
     position: absolute;
     width: 1140px;
@@ -169,6 +164,7 @@ section{
     line-height: 145%;
     width: 70%;
     margin-left: 15%;
+    margin-bottom: 4%;
 }
 
 .feature-box{
@@ -192,4 +188,45 @@ section{
     display: block;
     color: #e67e22;
     margin: 10px;
+}
+
+/* ========================================= Favoutite Meal Section ========================================================== */
+.section-meal{
+    padding: 0;
+}
+
+.meal-showcase{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.meal-showcase li{
+    width: 30%;
+    /* margin-top: 2px; */
+    margin:4px 2px 0 ;
+}
+
+.meal-image{
+    overflow: hidden;
+    margin: auto;
+    background-color: #2c2c2c;
+}
+
+.meal-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+
+.meal-image img:hover{
+    transform: scale(1.15);
+    opacity: 0.7;
 }
