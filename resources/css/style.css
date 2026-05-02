@@ -17,11 +17,13 @@ html{
     margin: 0 auto;
 }
 
+
 header {
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url('img/hero-image.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .hero-text-box{
@@ -100,15 +102,22 @@ header {
 }
 
 .logo{
-    height:70px;
+    height:50px;
     float: left;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.title{
+    color: #fa7c0e;
+    font-size: 250%;
+    margin-top: 31px;
 }
 
 .main-nav{
     float: right;
     list-style: none;
-    margin-top: 50px;
+    margin-top: -58px;
 }
 
 .main-nav li{
@@ -333,3 +342,52 @@ section{
 .city-feature a:hover{
     border-bottom: 1px solid #e67e22;
 }
+
+/* ========================================= Testimonials section ============================================= */
+.section-testimonials{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url('img/Testimonial-bg.jpg');
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+blockquote{
+    padding: 2%;
+    font-size: 120%;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 145%;
+    margin-top: 60px;
+    position: relative;
+}
+
+cite{
+    font-size: 90%;
+    font-weight: 400;
+    display: block;
+    margin-top: 25px;
+}
+
+cite img{
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+blockquote:before{
+    content: '\201c';
+    font-size: 200%;
+    color: #fff;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: -2px;
+}
+
+.section-testimonials .row{
+    padding-top: 20px;
+    color: #fff;
+}
+

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="resources/css/style.css">
     <link rel="stylesheet" href="vendors/css/normalize.css">
     <link rel="stylesheet" href="vendors/css/grid.css">
+    <link rel="shortcut icon" href="resources/img/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
@@ -17,11 +18,12 @@
         <nav>
             <div class="row">
                 <img class="logo" src="resources/img/logo-image.png" alt="logo-img">
-                    <ul class="main-nav">
-                    <li><a href="#">Food delivery</a></li>
-                    <li><a href="#">How it works</a></li>
-                    <li><a href="#">Our cities</a></li>
-                    <li><a href="#">Sign up</a></li>
+                <h1 class="title">NutriGo</h1>
+                <ul class="main-nav">
+                    <li><a href="#featureSection">Food delivery</a></li>
+                    <li><a href="#howItWorksSection">How it works</a></li>
+                    <li><a href="#ourCitiesSection">Our cities</a></li>
+                    <li><a href="#signUpSection">Sign up</a></li>
                 </ul>
             </div>
             
@@ -33,7 +35,7 @@
     </header>
 
     <!-- feature section -->
-    <section class="section-feature">
+    <section id="featureSection" class="section-feature">
         <div class="row">
             <h2>Get food fast &mdash; Not fast food</h2>
             <p class="long-copy">Hello, we're Omnifeed, your new premium food delivery service. we know you're always busy. No time for cooking. so let us take care of that , we're really good at it, we promise!</p>
@@ -60,10 +62,13 @@
                 <p>We don't limit your creativity, which means you can order whatever you feel like. Ypu can also choose from our menu containing over 100 delicious meals. It's up to you!</p>
             </div>
         </div>
-    </section>
+    </section> 
 
     <!-- Favorite Meal Section -->
      <section class="section-meal">
+        <div class="row">
+            <h2>Our Specials</h2>
+        </div>
         <ul class="meal-showcase">
             <li>
                 <figure class="meal-image"><img src="resources/img/Favourite-section-image-1.jpg" alt="Burger"></figure>
@@ -96,7 +101,7 @@
      </section>
 
     <!-- How it work Section -->
-     <section class="section-steps">
+     <section id="howItWorksSection" class="section-steps">
         <div class="row">
             <h2>How it works &mdash; Simple 1, 2, 3</h2>
         </div>
@@ -126,7 +131,7 @@
      </section>
 
     <!-- Cities Section -->
-     <section class="section-cities">
+     <section id="ourCitiesSection" class="section-cities">
         <div class="row">
             <h2>We're currently in these cities</h2>
         </div>
@@ -182,6 +187,33 @@
                 <div class="city-feature">
                     <ion-icon class="city-feature-icon" name="logo-twitter"></ion-icon><a href="#">@nutrigo_chennai</a>
                 </div>
+            </div>
+        </div>
+     </section>
+    
+    <!-- Testimonials Section -->
+     <section class="section-testimonials">
+        <div class="row">
+            <h2>Our Customer Can't live without us</h2>
+        </div>
+        <div class="row">
+            <div class="col span_1_of_3">
+                <blockquote>
+                    NutriGo is just awsome! I just launched a atartup which leaves me with no time for cooking, so nutrigo is a life-saver. Now that I got used to it, I could'nt live without my daily meals!
+                    <cite><img src="resources/img/Customer-1-image.jpg" alt="Customer-1 Image">Narang Kamal</cite>
+                </blockquote>
+            </div>
+            <div class="col span_1_of_3">
+                <blockquote>
+                    Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Banglore, but no one comes even close to NutriGo. Me and my family are so in love!
+                    <cite><img src="resources/img/Customer-2-image.jpg" alt="Customer-2 Image">Ruchi Singh</cite>
+                </blockquote>
+            </div>
+            <div class="col span_1_of_3">
+                <blockquote>
+                    I was looking for a quick and easy food delivery services in New Delhi. I tried a lot of them and ended up with nutrigo. Best food delivery services in the Bay Area. Keep up the great work.
+                    <cite><img src="resources/img/Customer-3-image.jpg" alt="Customer-3 Image">Dev Thapar</cite>
+                </blockquote>
             </div>
         </div>
      </section>
