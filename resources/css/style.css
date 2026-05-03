@@ -60,7 +60,8 @@ header {
 
 .btn,
 .btn:link,
-.btn:visited{
+.btn:visited,
+input[type=submit]{
     display: inline-block;
     padding: 10px 10px;
     text-decoration: none;
@@ -72,7 +73,8 @@ header {
 
 .btn-full,
 .btn-full:link,
-.btn-full:visited{
+.btn-full:visited,
+input[type=submit]{
     background-color: #e67e22;
     color: #fff;
     border-radius: 30px;
@@ -294,7 +296,7 @@ section{
     box-shadow: 10px 10px 5px #aaaaaa;
 }
 
-/* ========================================= How it work section ============================================= */
+/* ========================================= Cities section ============================================= */
 .city-box{
     padding: 1%;
 }
@@ -315,7 +317,7 @@ section{
     margin-bottom: 5px ;
 }
 
-.city-feature-icon{
+.icon-small{
     display: inline-block;
     width: 30px;
     text-align: center;
@@ -391,3 +393,167 @@ blockquote:before{
     color: #fff;
 }
 
+/* ========================================= Plans section ============================================= */
+.section-plans{
+    background-color: #f4f4f4;
+}
+
+.plan-box,
+.plan-box:link,
+.plan-box:visited{
+    background-color: #fff;
+    border-radius: 12px;
+    width: 90%;
+    margin-left: 5%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.plan-box:active,
+.plan-box:hover{
+    transform: scale(1.1);
+}
+
+.plan-box div{
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.plan-price{
+    font-size: 200%;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #e67e22;
+}
+
+.plan-price span{
+    font-size: 50%;
+}
+
+.plan-price-meal{
+    font-size: 90%;
+}
+
+.plan-box ul{
+    list-style: none;
+}
+
+.plan-box li{
+    padding: 5px 0;
+}
+
+.plan-box div:last-child{
+    text-align: center;
+}
+
+input[type=submit]:hover,
+input[type=submit]:active,
+.plan-box .btn-full:hover,
+.plan-box .btn-full:active{
+    background-color: #e67e22;
+    color: #fff;
+    box-shadow:0 0 0 6px rgba(230,126,34,.30),
+            0 5px 5px rgba(230,126,34,.68);
+}
+
+.plan-box .btn-ghost:active,
+.plan-box .btn-ghost:hover{
+    background-color: #e67e22;
+    border:2px solid #e67e22;
+    color: #fff;
+    box-shadow:0 0 0 6px rgba(230,126,34,.30),
+            0 5px 5px rgba(230,126,34,.68);
+}
+
+/* ========================================= Contact form section ============================================= */
+.contact-form{
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea{
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea{
+    height:100%;
+}
+
+input[type=checkbox]{
+    margin: 10px 5px 10px 0;
+    accent-color: #d26b11;    
+}
+
+input[type=submit]{
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+/* ========================================= Footer section ============================================= */
+footer{
+    height: 25vh;
+    background-color: #333;
+}
+
+.footer-nav{
+    list-style: none;
+    float: left;
+}
+
+.social-links{
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li{
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-icon{
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    font-size: 150%;
+    font-weight: 300;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited{
+    font-size: 120%;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active{
+    color: #ccc;
+}
+
+.facebook:hover{
+    color: #1877F2;
+}
+.twitter:hover{
+    color: #1DA1F2;
+}
+.google:hover{
+    color: #FBBC05;
+}
+.instagram:hover{
+    color: #d62976;
+}
+
+footer p{
+    color: #888;
+    text-align: center;
+    font-size: 120%;
+    margin-top: 40px;
+}
